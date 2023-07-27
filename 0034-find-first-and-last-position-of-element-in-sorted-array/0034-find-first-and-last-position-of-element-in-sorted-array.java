@@ -5,7 +5,6 @@ class Solution {
 		 int end=search(nums,target,false);
 		 ans[0]=start;
 		 ans[1]=end;
-		 System.out.println(Arrays.toString(ans));
 		 return ans;
 	 }
 	 static int search(int nums[],int target,boolean firstStart) {
