@@ -4,12 +4,10 @@ class Solution {
 		int end=nums.length-1;
 		while(start<end) {
 			int mid=(start+end)/2;
-			if(nums[mid]>nums[mid+1]) {
+			if(nums[mid]>nums[mid+1]) 
 				end=mid;
-			}
-			else {
+			else 
 				start=mid+1;
-			}
 		}
 		return end; 
     }
