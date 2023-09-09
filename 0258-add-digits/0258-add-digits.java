@@ -1,6 +1,6 @@
 class Solution {
     public int addDigits(int num) {
-			int temp=0,sum=0,sums=0;
+			int temp=0,sum=0;
         while(num!=0) {
 		temp=num%10;
 		sum=sum+temp;
